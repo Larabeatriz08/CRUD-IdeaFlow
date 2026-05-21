@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IdeaFlow</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+  <section id="login-container" class="container">
+    <h1>IdeaFlow</h1>
+    <p class="subtitle">Organize suas ideias de startup</p>
+    <input type="text" id="usuario" placeholder="Usuário">
+    <input type="password" id="senha" placeholder="Senha">
+    <button id="btn-login">Entrar</button>
+    <p id="erro-login" class="erro"></p>
+  </section>
+
+  <section id="app-container" class="container hidden">
+    <h1>Suas Ideias</h1>
+    <input type="text" id="nova-ideia" placeholder="Digite uma ideia de startup...">
+    <div class="botoes">
+      <button id="btn-final">Adicionar no Final</button>
+      <button id="btn-inicio">Adicionar no Início</button>
+    </div>
+    <p id="erro-item" class="erro"></p>
+    <ul id="lista"></ul>
+  </section>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
