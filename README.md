@@ -47,7 +47,9 @@ Os prompts utilizados e as análises das inteligências artificiais estão dispo
 prompts.md
 ```
 
+## Deploy Online
 
+[Visitar projeto](https://crud-idea-flow.vercel.app/)
 
 ## Made By
 Academic project developed for educational purposes with <img src="https://img.icons8.com/ios-filled/50/ffffff/coffee.png" width="16"/> and code by **Lara Lima**
